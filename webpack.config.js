@@ -1,17 +1,14 @@
-const path = './src/js/'
-const output_path = `${__dirname}/public/assets/`
+const path = require('path')
 
 const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
     mode: process.env.NODE_ENV,
     watch: false,
-    entry: {
-        app: `${path}app.js`
-    },
+    entry: './src/main.js',
     output: {
-        path: output_path,
-        filename: '[name].bundle.js'
+        path: path.resolve(__dirname, 'public'),
+        filename: '[name].js'
     },
     plugins: [
         new VueLoaderPlugin()

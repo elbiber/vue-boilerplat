@@ -34,5 +34,6 @@ module.exports = {
         'no-var': 'error',
         'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
         camelcase: 'off'
-    }
+    },
+    ignorePatterns: ['public/*']
 }
