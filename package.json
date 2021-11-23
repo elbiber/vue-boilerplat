@@ -12,10 +12,12 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
     "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-vue": "^8.1.1",
+    "style-loader": "^3.3.1",
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^5.64.2",
