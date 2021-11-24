@@ -1,10 +1,11 @@
 import './style.css'
+import './scss/style.scss'
 import Vue from 'vue'
 
-import Welcome from './welcome.vue'
+import App from './App.vue'
 
 Vue.config.productionTip = false
 
 new Vue({
-    render: h => h(Welcome)
+    render: h => h(App)
 }).$mount('#app')

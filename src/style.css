@@ -22,11 +22,3 @@
 }
 
 
-.hello {
-	color: red;
-	font-family: roboto;
-	background: url('./icon.png');
-}
-body {
-	font-family: themify;
-}
