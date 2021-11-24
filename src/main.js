@@ -1,20 +1,10 @@
-import _ from 'lodash'
 import './style.css'
-import Icon from './icon.png'
+import Vue from 'vue'
 
-function component() {
-    const element = document.createElement('div')
+import Welcome from './welcome.vue'
 
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ')
-    element.classList.add('hello')
+Vue.config.productionTip = false
 
-    const myIcon = new Image()
-    myIcon.src = Icon
-
-    element.appendChild(myIcon)
-
-    return element
-}
-
-document.body.appendChild(component())
+new Vue({
+    render: h => h(Welcome)
+}).$mount('#app')

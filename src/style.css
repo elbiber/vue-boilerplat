@@ -27,3 +27,6 @@
 	font-family: roboto;
 	background: url('./icon.png');
 }
+body {
+	font-family: themify;
+}
