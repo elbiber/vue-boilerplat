@@ -10,7 +10,7 @@
           <ul class="list-inline text-lg-right text-center">
 
             <li class="list-inline-item">
-              <a href="mailto:info@novatravelventures.com">info@novatravelventures.com</a>
+              <a href="mailto:info@geoflex.work">info@geoflex.work</a>
             </li>
 
             <li class="list-inline-item">

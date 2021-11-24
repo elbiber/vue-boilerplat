@@ -14,7 +14,6 @@ module.exports = {
     plugins: [
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Output Management',
             template: 'index.html'
         })
     ],

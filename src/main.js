@@ -1,5 +1,7 @@
-import './style.css'
+// import './style.css'
 import './scss/style.scss'
+import './plugins/themify-icons/themify-icons.css'
+import 'bootstrap'
 import Vue from 'vue'
 
 import App from './App.vue'
