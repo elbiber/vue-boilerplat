@@ -5,30 +5,47 @@
   "main": "main.js",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development webpack --progress --config=webpack.config.js"
+    "watch": "NODE_ENV=development webpack --watch",
+    "dev": "NODE_ENV=development webpack --progress --config=webpack.dev.config.js",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "autoprefixer": "^10.4.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.5.1",
     "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-vue": "^8.1.1",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.2",
-    "sass": "^1.43.4",
+    "mini-css-extract-plugin": "^2.4.5",
+    "postcss": "^8.4.1",
+    "postcss-loader": "^6.2.0",
+    "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^5.64.2",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "lodash": "^4.17.21",
-    "vue": "^2.6.14"
+    "core-js": "^3.19.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3"
   }
 }

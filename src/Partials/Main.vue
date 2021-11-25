@@ -1,5 +1,5 @@
 <template>
-<section class="page-stay-tuned" style="background-image: url('../assets/images/tuned.jpg');">
+<section class="page-stay-tuned" style="background-image: url('./assets/images/tuned.jpg');">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12 text-center">
